@@ -2,7 +2,7 @@
 Criação de Bucket Usando Terraform
 
 Antes de executar, faça as seguintes adaptações necessárias no arquivo s3.tf de acordo com sua necessidade:
-- Altere o nome da região em YOUR_REGION_NAME
+- Altere o nome da região em REGION_NAME
 - Altere o nome do bucket em YOUR_BUCKET_NAME
 - Altere o acl para "public" caso não deseje que seu Bucket seja privado
 
