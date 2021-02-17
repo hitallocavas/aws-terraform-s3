@@ -3,10 +3,10 @@ terraform {
 }
 
 provider "aws" {
-  region = "us-east-1"
+  region = "REGION_NAME"
 }
 
-resource "aws_s3_bucket" "terraform-first-bucket" {
-  bucket = "terraformfirstbucket"
+resource "aws_s3_bucket" "YOUR_BUCKET_NAME" {
+  bucket = "YOUR_BUCKET_NAME"
   acl = "private"
 }
